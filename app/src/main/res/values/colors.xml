@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green_defult">#46adf2</color>
+
+
+    <color name="transparent">#00000000</color>
+    <color name="black">#000000</color>
+    <color name="green">#68cc57</color>
+    <color name="gray">#808080</color>
+    <color name="grey">#dcdcdc</color>
+    <color name="cyan">#6eb92b</color>
+    <color name="yellow">#f5a21c</color>
+    <color name="graybg">#efefef</color>
+    <color name="greenbg">#009944</color>
+    <color name="blackbg">#323232</color>
+    <color name="white">#ffffff</color>
+    <color name="whites">#99ffffff</color>
+    <color name="white_light">#f3f3f3</color>
+    <color name="graylight">#f5f5f5</color>
+    <color name="grayline">#E5E5EA</color>
+    <color name="graymid">#a0a0a0</color>
+    <color name="gray_dark">#717171</color>
+    <color name="themecolor">#5788ff</color>
+    <color name="red">#D0011B</color>
+    <color name="blue">#3366CC</color>
+    <color name="skyblue">#5788ff</color>
+
+    <!--title颜色-->
+    <color name="app_title">#ffffff</color>
+    <color name="app_title_text">#333333</color>
+
+    <color name="colorBackground">#ffffff</color>
+    <color name="colorLineChoosed">#33B5E5</color>
+    <color name="colorLineChoosedShadow">#8833B5E5</color>
+    <color name="colorLineDefault">#FFAAAAAA</color>
+
+    <color name="style_red">#ff4c41</color>
+    <color name="style_divider_color">#C9C7CD</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="themeblue">#76ddfb</color>
+    <color name="transparent2">#8000</color><!-- 透明 -->
+    <color name="transparent3">#00000000</color><!-- 透明 -->
+
+    <color name="navpage">#FFE1E8EB</color>
+    <color name="main_radiobutton_text">#666666</color>
+
+    <!--评论对话框颜色-->
+    <color name="btn_gray">#999999</color>
+    <color name="titlebar_color">#ffdc00</color> <!-- bar颜色 -->
+    <color name="top_bg_shadow">#222222</color> <!-- 黑色阴影 -->
+
+    <color name="pop_bg_value">#4D000000</color> <!-- 黑色阴影 -->
+
+    <color name="vl_main_color">#B4A078</color>     <!--家装主题色-->
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="vs_main_color">#5788FF</color> <!-- VSS主题色-->
+
+    <color name="transparent_background">#50000000</color>
+
+    <!--中间是国斌引入-->
+
+    <color name="dialog_title">#ffff0000</color>
+    <color name="common_background">#f5f3f0</color>
+    <color name="txt_color_gray_3">#cbc4c6</color>
+    <color name="pink">#ff5d65</color>
+    <color name="brown">#cccccc</color>
+    <color name="pale_pink">#cbc4c6</color>
+    <color name="divider">#e8e3e3</color>
+    <color name="tabcolor">#6e686a</color>
+    <!-- [begin]crop -->
+    <color name="crop_bg">#D5D5D5</color>
+    <color name="crop__button_bar">#f3f3f3</color>
+    <color name="crop__button_text">#666666</color>
+    <color name="crop__selector_pressed">#1a000000</color>
+    <color name="crop__selector_focused">#77000000</color>
+    <!-- [end]crop -->
+    <!--Theme-->
+    <color name="dark_red">#F4511E</color>
+    <color name="accent_red">#FF5722</color>
+    <!--Theme-->
+    <color name="dark_blue">#1976D2</color>
+    <color name="accent_blue">#448AFF</color>
+    <color name="light_grey">#ffbebebe</color>
+    <!--中间是国斌引入-->
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_all_photo"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:background="#b5555555"
+    android:orientation="vertical">
+
+    <!-- 首页-我的-头像弹出框 -->
+
+    <LinearLayout
+        android:id="@+id/ll_select_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <!-- 拍照按钮 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_camera"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:text="拍照"
+                android:textColor="#262e31"
+                android:textSize="16sp" />
+            <!-- 相册选择按钮 -->
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#bdbdbd" />
+
+            <Button
+                android:id="@+id/btn_local"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:text="选择相册中图片"
+                android:textColor="#262e31"
+                android:textSize="16sp" />
+            <!-- 取消按钮 -->
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_photo_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="13dp"
+            android:layout_marginTop="13dp"
+            android:background="@color/white"
+            android:text="取消"
+            android:textColor="#262e31"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</RelativeLayout>

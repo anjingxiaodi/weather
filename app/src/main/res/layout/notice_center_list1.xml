@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#E5E5EA"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/x20"
+        android:background="@drawable/shape_white_24"
+       >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="降温！东西两路冷空气来袭"
+            android:layout_marginTop="@dimen/x30"
+            android:layout_marginLeft="@dimen/x30"
+            android:textSize="18dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x120"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="@dimen/x30"
+            android:layout_marginLeft="@dimen/x30"
+            android:background="@drawable/shape_notice_16"
+            android:layout_marginRight="@dimen/x30"
+            >
+
+                <ImageView
+                    android:layout_width="@dimen/x120"
+                    android:layout_height="@dimen/x120"
+                    android:background="@mipmap/ic_launcher"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="今天起，华北北部冷空气来袭，冷空气来袭，冷空气来袭，冷空气来袭，冷空气来袭，冷空气来袭，冷空气来袭"
+                    android:lines="2"
+                    android:enabled="true"
+                    android:lineSpacingExtra="@dimen/x10"
+                    android:paddingLeft="@dimen/x30"
+                    android:paddingRight="@dimen/x50"
+                    android:paddingTop="@dimen/x10"
+                    android:paddingBottom="@dimen/x10"
+                    />
+
+
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/x20"
+            android:layout_marginBottom="@dimen/x20">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:text="2019-11-06"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/x30"
+                />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,164 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.jakewharton.butterknife'
+def config = rootProject.ext.android;
+def lib = rootProject.ext.dependencies;
+
+android {
+
+    signingConfigs {
+        release {
+            keyAlias RELEASE_KEY_ALIAS
+            keyPassword RELEASE_KEY_PASSWORD
+            storeFile file(RELEASE_STORE_FILE)
+            storePassword RELEASE_STORE_PASSWORD
+        }
+    }
+//忽略方法数限制的检查
+    dexOptions {
+        jumboMode true
+    }
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.ok100.weather"
+        minSdkVersion config.minSdkVersion
+        targetSdkVersion config.targetSdkVersion
+        versionCode config.versionCode
+        versionName config.versionName
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        multiDexEnabled true
+    }
+    //IM包打正式包报错添加
+    lintOptions {
+        disable "ResourceType"
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+        }
+        debug {
+            signingConfig signingConfigs.release
+
+        }
+    }
+    sourceSets.main {
+        jniLibs.srcDirs = ['libs']  // <-- Set your folder here!
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+
+    implementation 'com.android.support:design:28.0.0'
+    //    compile "com.android.support:appcompat-v7:${lib.supportVersion}"
+    compile "com.github.bumptech.glide:glide:${lib.glideVersion}"
+
+    compile "com.android.support:support-v4:${lib.supportVersion}"
+
+    implementation 'com.lzy.widget:imagepicker:0.6.1'
+    implementation 'com.google.android.gms:play-services-appindexing:8.4.0'
+    implementation 'org.quanqi:mpandroidchart:1.7.5'
+    implementation 'org.greenrobot:greendao:3.2.0'
+    implementation 'org.greenrobot:greendao-generator:3.2.0'
+//    implementation 'com.jakewharton:butterknife:7.0.1'
+    implementation 'com.google.code.gson:gson:2.7'
+
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.47'
+    implementation 'com.android.support:multidex:1.0.2'
+    implementation 'com.umeng.analytics:analytics:latest.integration'
+    implementation 'jp.wasabeef:glide-transformations:2.0.2'
+    implementation 'org.kymjs.kjframe:kjframe:2.4.6.2'
+    implementation 'com.jpardogo.materialtabstrip:library:1.1.0'
+//    implementation 'com.github.1002326270xc:LayoutManager-FlowLayout:v1.4'
+    implementation 'top.zibin:Luban:1.1.3'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    implementation 'io.reactivex.rxjava2:rxjava:2.1.0'
+    implementation 'com.wx.wheelview:wheelview:1.3.3'
+    implementation "com.squareup.okhttp3:okhttp:3.4.1"
+    compile('com.lzy.net:okhttputils:1.8.1') {
+        exclude group: 'com.squareup.okhttp3'
+    }
+
+//    compile project(':react-native-puti-pay')
+
+    //环信头像用
+    implementation 'com.j256.ormlite:ormlite-android:5.0'
+    implementation 'com.google.code.gson:gson:2.8.0'
+    testCompile 'junit:junit:4.12'
+    //PushSDK必须依赖基础组件库，所以需要加入对应依赖
+    implementation 'com.umeng.sdk:common:1.5.0'
+    //PushSDK必须依赖utdid库，所以需要加入对应依赖
+    implementation 'com.umeng.sdk:utdid:1.1.5.3'
+    //PushSDK
+    implementation 'com.umeng.sdk:push:4.1.0'
+    api project(':status')
+    //RN加
+    implementation 'com.facebook.fresco:animated-gif:1.10.0'
+
+    compile "com.android.support:cardview-v7:${lib.supportVersion}"
+
+    implementation 'com.jakewharton:butterknife:9.0.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:9.0.0'
+
+    implementation 'me.zhouzhuo.zzweatherview:zz-weather-view:1.0.2'
+    implementation 'com.contrarywind:Android-PickerView:4.1.9'
+
+    implementation 'com.github.yuruiyin:AppbarLayoutBehavior:v1.0.2'
+    implementation 'com.flyco.tablayout:FlycoTabLayout_Lib:2.1.2@aar'
+
+
+    //中间是国斌引入
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+    implementation 'com.android.support:recyclerview-v7:28.0.0'
+    implementation 'com.android.support:cardview-v7:28.0.0'
+    implementation 'com.readystatesoftware.systembartint:systembartint:1.0.3'
+    implementation 'com.melnykov:floatingactionbutton:1.3.0'
+    implementation 'com.rengwuxian.materialedittext:library:2.1.3'
+    implementation files('libs/fastjson-1.2.5.jar')
+    implementation 'it.sephiroth.android.library.horizontallistview:hlistview:1.2.2'
+    implementation project(':Gpu-Image')
+    implementation project(':ImageViewTouch')
+    implementation 'org.greenrobot:eventbus:3.0.0'
+    implementation 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+    implementation 'com.jakewharton:butterknife:8.4.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.4.0'
+//    implementation 'com.github.bumptech.glide:glide:4.5.0'
+    implementation('com.android.support:appcompat-v7:26.1.0') {
+        exclude module: 'support-v4'
+    }
+    implementation 'com.tbruyelle.rxpermissions2:rxpermissions:0.9.3@aar'
+    implementation 'io.reactivex.rxjava2:rxjava:2.0.5'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
+
+    //中间是国斌引入
+
+    implementation 'com.amap.api:location:latest.integration'
+    implementation 'com.amap.api:search:latest.integration'
+    implementation 'com.amap.api:3dmap:latest.integration'
+
+    configurations.all {
+        resolutionStrategy.eachDependency {
+            DependencyResolveDetails details ->
+                def requested = details.requested
+                if (requested.group == 'com.android.support') {
+                    if (!requested.name.startsWith("multidex")) {
+                        details.useVersion '26.0.1'
+                    }
+                }
+        }
+    }
+}

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#aa000000"
+    android:fitsSystemWindows="true"
+    tools:context=".activity.MyCityActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        >
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x30"
+            android:src="@mipmap/main_city_close"/>
+
+        <ImageView
+            android:id="@+id/iv_choose_city"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/main_city_add"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/x30"/>
+
+        <ImageView
+            android:id="@+id/iv_add_city"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/main_city_edit"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/x150"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tv_my_city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/x20"
+                android:layout_marginLeft="@dimen/x30"
+                android:textColor="@color/white"
+                android:text="我的城市"
+                android:textSize="30dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/x20"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:layout_marginBottom="@dimen/x30"
+                android:gravity="center_vertical">
+                <EditText
+                    android:id="@+id/edittext_search"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="@dimen/x80"
+                    android:layout_marginLeft="@dimen/x30"
+                    android:layout_marginRight="@dimen/x30"
+                    android:hint="添加城市"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:paddingLeft="@dimen/x30"
+                    android:gravity="center_vertical"
+                    android:drawableLeft="@mipmap/mycity_search"
+                    android:background="@drawable/shape_white_banyue"
+
+                    />
+                <TextView
+                    android:id="@+id/textview_quxiao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="取消"
+                    android:layout_marginRight="@dimen/x30"
+                    android:textColor="@color/white"
+                    android:visibility="gone"
+                    />
+            </LinearLayout>
+            </LinearLayout>
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycleview1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_white_24"
+                android:layout_marginLeft="@dimen/x30"
+                android:layout_marginRight="@dimen/x30"
+                android:layout_marginBottom="@dimen/x100"
+                ></android.support.v7.widget.RecyclerView>
+
+            <LinearLayout
+                android:id="@+id/ll_recycle1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="热门城市"
+                    android:textSize="20dp"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="@dimen/x30"
+                    />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recycleview2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/x10"
+                  ></android.support.v7.widget.RecyclerView>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/ll_recycle2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="热门城市"
+                    android:textSize="20dp"
+                    android:textColor="@color/white"
+                    />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recycleview3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/x20"
+                    ></android.support.v7.widget.RecyclerView>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

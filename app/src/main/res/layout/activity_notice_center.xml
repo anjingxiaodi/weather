@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:background="@color/white"
+    tools:context=".activity.NoticeCenterActivity">
+
+    <include layout="@layout/title" />
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabLayout_dataStatistics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:background="@color/white"
+        app:tabIndicatorColor="@color/themecolor"
+        app:tabSelectedTextColor="@color/themecolor"
+        app:tabTextAppearance="@style/MyTabLayoutTextAppearance"
+        app:tabTextColor="#333333">
+
+
+    </android.support.design.widget.TabLayout>
+    <View
+        android:id="@+id/tablayout_bottmo_line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y1"
+        android:layout_below="@+id/tabLayout_dataStatistics"
+        android:background="#E5E5EA"/>
+
+    <com.ok100.weather.base.BaseViewPager
+        android:id="@+id/baseViewPager_dataStatistics"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tablayout_bottmo_line"/>
+
+</LinearLayout>

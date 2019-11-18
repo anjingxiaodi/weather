@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Day">D</string>
+    <string name="Month">M</string>
+    <string name="Year">Y</string>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_font_family_body_1_material">sans-serif</string>
+    <string name="abc_font_family_body_2_material">sans-serif-medium</string>
+    <string name="abc_font_family_button_material">sans-serif-medium</string>
+    <string name="abc_font_family_caption_material">sans-serif</string>
+    <string name="abc_font_family_display_1_material">sans-serif</string>
+    <string name="abc_font_family_display_2_material">sans-serif</string>
+    <string name="abc_font_family_display_3_material">sans-serif</string>
+    <string name="abc_font_family_display_4_material">sans-serif-light</string>
+    <string name="abc_font_family_headline_material">sans-serif</string>
+    <string name="abc_font_family_menu_material">sans-serif</string>
+    <string name="abc_font_family_subhead_material">sans-serif</string>
+    <string name="abc_font_family_title_material">sans-serif-medium</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">space</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Search…</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="action_settings">Settings</string>
+    <string name="activity_chooseAlarmCity_title">选择播报城市</string>
+    <string name="activity_editAlarmclock_hour">时</string>
+    <string name="activity_editAlarmclock_minute">分</string>
+    <string name="activity_editAlarmclock_redays">闹钟重复</string>
+    <string name="activity_editAlarmclock_title">编辑闹钟</string>
+    <string name="activity_editAlarmclock_vibration">振动</string>
+    <string name="activity_setAlarmclock_title">天气闹钟</string>
+    <string name="add_city">添加城市</string>
+    <string name="add_widget">Add widget</string>
+    <string name="air_quality_aqi">AQI指数</string>
+    <string name="air_quality_co">一氧化碳</string>
+    <string name="air_quality_co2">二氧化氮</string>
+    <string name="air_quality_daily">详细数据</string>
+    <string name="air_quality_detail">实时监测点</string>
+    <string name="air_quality_detail_data">各检测点实时数据</string>
+    <string name="air_quality_o3">臭氧</string>
+    <string name="air_quality_pm">PM10</string>
+    <string name="air_quality_pn">PM2.5</string>
+    <string name="air_quality_rank">全国城市排名</string>
+    <string name="air_quality_so2">二氧化硫</string>
+    <string name="app_name">中央天气预报</string>
+    <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="appdownloader_button_cancel_download">取消</string>
+    <string name="appdownloader_button_queue_for_wifi">排队</string>
+    <string name="appdownloader_button_start_now">立即开始</string>
+    <string name="appdownloader_download_percent">%1$d%%</string>
+    <string name="appdownloader_download_remaining">剩余时间：%1$s</string>
+    <string name="appdownloader_download_unknown_title">&lt;未命名></string>
+    <string name="appdownloader_duration_hours">%1$d 小时</string>
+    <string name="appdownloader_duration_minutes">%1$d 分钟</string>
+    <string name="appdownloader_duration_seconds">%1$d 秒</string>
+    <string name="appdownloader_label_cancel">取消</string>
+    <string name="appdownloader_label_ok">确定</string>
+    <string name="appdownloader_notification_download">下载</string>
+    <string name="appdownloader_notification_download_complete_open">下载完成，点击打开。</string>
+    <string name="appdownloader_notification_download_complete_with_install">下载完成，点击安装。</string>
+    <string name="appdownloader_notification_download_complete_without_install">下载完成</string>
+    <string name="appdownloader_notification_download_delete">确认要删除%1$s的下载任务吗？</string>
+    <string name="appdownloader_notification_download_failed">下载失败。</string>
+    <string name="appdownloader_notification_download_install">安装</string>
+    <string name="appdownloader_notification_download_open">打开</string>
+    <string name="appdownloader_notification_download_pause">暂停</string>
+    <string name="appdownloader_notification_download_restart">重新下载</string>
+    <string name="appdownloader_notification_download_resume">继续</string>
+    <string name="appdownloader_notification_download_space_failed">SdCard空间不足, 下载失败。</string>
+    <string name="appdownloader_notification_downloading">正在下载</string>
+    <string name="appdownloader_notification_need_wifi_for_size">文件过大，需要通过 WLAN 下载。</string>
+    <string name="appdownloader_notification_paused_in_background">已在后台暂停。</string>
+    <string name="appdownloader_notification_prepare">准备中</string>
+    <string name="appdownloader_tip">提示</string>
+    <string name="appdownloader_wifi_recommended_body">"立即开始下载此内容 (%1$s ) 可能会缩短电池的使用时间并/或导致过量使用移动数据连接流量（这可能导致移动运营商向您收费，具体取决于您的流量套餐）。
+
+触摸“%2$s”可在下次连接到 WLAN 网络时开始下载此内容。"</string>
+    <string name="appdownloader_wifi_recommended_title">稍后再加入下载队列吗？</string>
+    <string name="appdownloader_wifi_required_body">"您必须使用 WLAN 完成此内容 (%1$s ) 的下载。
+
+触摸“%2$s ”可在下次连接到 WLAN 网络时开始下载此内容。"</string>
+    <string name="appdownloader_wifi_required_title">文件太大，不适于通过运营商网络下载</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="bandeinged">已绑定</string>
+    <string name="bottom_sheet_behavior">android.support.design.widget.BottomSheetBehavior</string>
+    <string name="c_buoycircle_abort">YES</string>
+    <string name="c_buoycircle_abort_message">Stop download?</string>
+    <string name="c_buoycircle_appmarket_name">HUAWEI AppGallery</string>
+    <string name="c_buoycircle_auto_hide_notice">Drag here to hide</string>
+    <string name="c_buoycircle_cancel">CANCEL</string>
+    <string name="c_buoycircle_check_failure">Update check failed.</string>
+    <string name="c_buoycircle_checking">Checking for updates…</string>
+    <string name="c_buoycircle_confirm">OK</string>
+    <string name="c_buoycircle_download_failure">HUAWEI AppGallery could not be downloaded.</string>
+    <string name="c_buoycircle_download_no_space">Not enough free space. Unable to download.</string>
+    <string name="c_buoycircle_download_retry">Download failed. Try again?</string>
+    <string name="c_buoycircle_downloading_loading">Downloading…</string>
+    <string name="c_buoycircle_floatwindow_click_fail_toast">Enable Secondary launch for HUAWEI AppGallery in Phone Manager or Settings.</string>
+    <string name="c_buoycircle_hide_guide_btn_cancel">CANCEL</string>
+    <string name="c_buoycircle_hide_guide_btn_confirm">HIDE</string>
+    <string name="c_buoycircle_hide_guide_content_nosensor">After balloons are hidden, you will need to relaunch the app to show them again.</string>
+    <string name="c_buoycircle_hide_guide_content_sensor">After balloons are hidden, flip your device to show them again.</string>
+    <string name="c_buoycircle_hide_guide_noremind">"Don't remind me again"</string>
+    <string name="c_buoycircle_hide_guide_title">Hide balloons</string>
+    <string name="c_buoycircle_install">INSTALL</string>
+    <string name="c_buoycircle_no">NO</string>
+    <string name="c_buoycircle_retry">RETRY</string>
+    <string name="c_buoycircle_update_message_new">"This service requires the latest version of the following app:
+
+%1$s"</string>
+    <string name="card_15_weather">15天预报</string>
+    <string name="card_15_weather_lb">列表</string>
+    <string name="card_15_weather_qs">趋势</string>
+    <string name="card_15_weather_see">点击展开15天预报</string>
+    <string name="card_24_weather">24小时预报</string>
+    <string name="card_constellation_cancel">取消</string>
+    <string name="card_constellation_determine">确定</string>
+    <string name="card_constellation_discuss_index_title">商谈指数:</string>
+    <string name="card_constellation_health_index_title">健康指数:</string>
+    <string name="card_constellation_luck_star_title">综合运势</string>
+    <string name="card_constellation_lucky_color_title">幸运颜色:</string>
+    <string name="card_constellation_lucky_number_title">幸运数字:</string>
+    <string name="card_constellation_match_constellation_title">速配星座:</string>
+    <string name="card_constellation_more_info">更多</string>
+    <string name="card_constellation_reasonable_estimates">合理测算</string>
+    <string name="card_constellation_ys_career_title">事业学业</string>
+    <string name="card_constellation_ys_finance_title">财源运势</string>
+    <string name="card_constellation_ys_health_title">健康运势</string>
+    <string name="card_constellation_ys_love_title">爱情运势</string>
+    <string name="card_news_novel">小说</string>
+    <string name="card_news_refresh">刷新</string>
+    <string name="card_news_video">视频</string>
+    <string name="character_counter_content_description">Character limit exceeded %1$d of %2$d</string>
+    <string name="character_counter_pattern">%1$d / %2$d</string>
+    <string name="cmgame_sdk_app_name">cmgame</string>
+    <string name="cmgame_sdk_business_interstitial_countdown_pattern">还剩%d秒</string>
+    <string name="cmgame_sdk_data_fail_btn_text">马上刷新</string>
+    <string name="cmgame_sdk_format_online_num">%d人在玩</string>
+    <string name="cmgame_sdk_game_load_fail_hit_bottom_txt">刷新没用？去【我的】反馈问题</string>
+    <string name="cmgame_sdk_label_home_new">NEW</string>
+    <string name="cmgame_sdk_net_error_text">偶滴神呐！断网了</string>
+    <string name="cmgame_sdk_pan_ad_button_download">下载</string>
+    <string name="cmgame_sdk_unopened_function">功能暂未开放，敬请期待哦~</string>
+    <string name="comment_star_five">满意度：非常喜欢</string>
+    <string name="comment_star_four">满意度：喜欢</string>
+    <string name="comment_star_none">您喜欢天气预报吗？</string>
+    <string name="comment_star_note01">点击星星进行评分</string>
+    <string name="comment_star_note02">留下意见，方便给您更好的服务</string>
+    <string name="comment_star_note03">前往应用商店鼓励一下我们</string>
+    <string name="comment_star_one">满意度：非常不喜欢</string>
+    <string name="comment_star_three">满意度：一般</string>
+    <string name="comment_star_two">满意度：不喜欢</string>
+    <string name="contentDescription">00:00</string>
+    <string name="desktop_widgets_note">如要正常使用小插件，需保持中央天气预报在后台持续运行</string>
+    <string name="dialog_voice">将下载约2MB语音播报文件，是否继续？</string>
+    <string name="double_dash">--</string>
+    <string name="fab_transformation_scrim_behavior">android.support.design.transformation.FabTransformationScrimBehavior</string>
+    <string name="fab_transformation_sheet_behavior">android.support.design.transformation.FabTransformationSheetBehavior</string>
+    <string name="friday_week">星期五</string>
+    <string name="friday_week_eng">Friday</string>
+    <string name="friday_week_eng_abbr">Fri.</string>
+    <string name="friday_week_small">周五</string>
+    <string name="go_to_detail_settings">去设置</string>
+    <string name="hide_bottom_view_on_scroll_behavior">android.support.design.behavior.HideBottomViewOnScrollBehavior</string>
+    <string name="hint_txt">登录即同意</string>
+    <string name="hms_abort">Stop</string>
+    <string name="hms_abort_message">Stop downloading?</string>
+    <string name="hms_bindfaildlg_message">%1$s is unable to use Huawei Mobile Services. Please launch Phone Manager or go to Settings, enable all permissions for %2$s (including auto-launch and secondary launch), and try again.</string>
+    <string name="hms_bindfaildlg_title">@string/hms_update_title</string>
+    <string name="hms_cancel">Cancel</string>
+    <string name="hms_check_failure">Failed to check for updates.</string>
+    <string name="hms_check_no_update">You are already using the latest version.</string>
+    <string name="hms_checking">Checking for updates…</string>
+    <string name="hms_confirm">OK</string>
+    <string name="hms_download_failure">Failed to download Huawei Mobile Services package.</string>
+    <string name="hms_download_no_space">Not enough free space. Download cannot be completed.</string>
+    <string name="hms_download_retry">Download failed. Try again?</string>
+    <string name="hms_downloading">"Downloading Huawei Mobile Services
+progress: %d%%"</string>
+    <string name="hms_downloading_loading">Downloading</string>
+    <string name="hms_downloading_new">Downloading HMS</string>
+    <string name="hms_game_login_notice">Welcome %1$s</string>
+    <string name="hms_gamebox_name">HUAWEI GameCenter</string>
+    <string name="hms_install">Install</string>
+    <string name="hms_install_message">Huawei Mobile Services must be installed to use this feature. Install?</string>
+    <string name="hms_push_channel">Default</string>
+    <string name="hms_retry">Retry</string>
+    <string name="hms_update">Update</string>
+    <string name="hms_update_message">Update to the latest version of Huawei Mobile Services to use this feature. Update now?</string>
+    <string name="hms_update_message_new">"This service requires the latest version of the following app:
+
+%1$s"</string>
+    <string name="hms_update_title">Huawei Mobile Services</string>
+    <string name="isTest">是否测试线</string>
+    <string name="jg_channel_name_p_default">NORMAL</string>
+    <string name="jg_channel_name_p_high">HIGH</string>
+    <string name="jg_channel_name_p_low">LOW</string>
+    <string name="jg_channel_name_p_min">LOW</string>
+    <string name="jz_click_to_restart">点击重试</string>
+    <string name="jz_no_url">播放地址无效</string>
+    <string name="jz_replay">重播</string>
+    <string name="jz_tips_not_wifi">您当前正在使用移动网络，继续播放将消耗流量</string>
+    <string name="jz_tips_not_wifi_cancel">停止播放</string>
+    <string name="jz_tips_not_wifi_confirm">继续播放</string>
+    <string name="jz_video_loading_faild">视频加载失败</string>
+    <string name="lacked_imei_permission_tips">该功能需要申请手机识别码权限，请前往设置开启</string>
+    <string name="lacked_storage_permission_tips">该功能需要申请手机存储权限，请前往设置开启</string>
+    <string name="layout_login">本机号码一键登录</string>
+    <string name="lbl_camera_unavailable">"Camera is not available (in use or does not exist).
+Please close applications, that may use camera."</string>
+    <string name="lbl_cancel">Cancel</string>
+    <string name="lbl_close">Close</string>
+    <string name="lbl_crop">Crop</string>
+    <string name="lbl_delete">Delete</string>
+    <string name="lbl_focus_mode">Focus mode</string>
+    <string name="lbl_hdr">HDR</string>
+    <string name="lbl_left">Left</string>
+    <string name="lbl_open_photo_preview">Open preview photo after shot</string>
+    <string name="lbl_photo_crop">Photo crop</string>
+    <string name="lbl_photo_preview">lbl_photo_preview</string>
+    <string name="lbl_quality">Quality</string>
+    <string name="lbl_ratio">Ratio</string>
+    <string name="lbl_right">Right</string>
+    <string name="lbl_settings">Settings</string>
+    <string name="lbl_string_apply">Apply</string>
+    <string name="lbl_take_another">Take another</string>
+    <string name="lbl_zoom_ratio_value">Zoom: %1.2fx</string>
+    <string name="live_hot">实时热点</string>
+    <string name="live_money">现金福利</string>
+    <string name="live_show">美女直播</string>
+    <string name="loaction_unable">您的设备不支持定位</string>
+    <string name="load_end">加载结束</string>
+    <string name="load_failed">加载失败</string>
+    <string name="loading">正在加载...</string>
+    <string name="login_note">登录后打赏，一个账号三个设备同时享去广告!</string>
+    <string name="login_out_cancel">取消</string>
+    <string name="login_out_desc">退出登录之后将不可使用积分和去广告功能</string>
+    <string name="login_out_hint">是否确定退出登录</string>
+    <string name="login_out_sure">退出登录</string>
+    <string name="login_title">登录中央天气预报</string>
+    <string name="logout_authorization">注销账号</string>
+    <string name="menu_account">个人中心</string>
+    <string name="menu_edit">编辑</string>
+    <string name="menu_finish">完成</string>
+    <string name="menu_notify">通知</string>
+    <string name="menu_push">推</string>
+    <string name="menu_settings">软件设置</string>
+    <string name="menu_widgets">桌</string>
+    <string name="monday_week">星期一</string>
+    <string name="monday_week_eng">Monday</string>
+    <string name="monday_week_eng_abbr">Mon.</string>
+    <string name="monday_week_small">周一</string>
+    <string name="mtrl_chip_close_icon_content_description">Remove %1$s</string>
+    <string name="news_subscribed_tip_add">添加订阅</string>
+    <string name="news_subscribed_tip_subscribed">已订阅 (拖动排序)</string>
+    <string name="none_login1">隐式获取token</string>
+    <string name="nothing" />
+    <string name="oauth_help">帮助</string>
+    <string name="oauth_login">确认登录</string>
+    <string name="oauth_title">免密登录</string>
+    <string name="order_page">订购页面</string>
+    <string name="outh_login">短信验证码登录</string>
+    <string name="password_toggle_content_description">Show password</string>
+    <string name="path_password_eye">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
+    <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_eye_mask_visible">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_strike_through">M3.27,4.27 L19.74,20.74</string>
+    <string name="permission_cancel">取消</string>
+    <string name="permission_message_always_failed">"是否到设置界面手动开启以下权限:
+
+%1$s"</string>
+    <string name="permission_message_rationale">"中央天气预报需要你开启以下权限:
+
+%1$s"</string>
+    <string name="permission_resume">确定</string>
+    <string name="permission_setting">设置</string>
+    <string name="permission_title_dialog">权限申请提示：</string>
+    <string name="pickerview_cancel">取消</string>
+    <string name="pickerview_day">日</string>
+    <string name="pickerview_hours">时</string>
+    <string name="pickerview_minutes">分</string>
+    <string name="pickerview_month">月</string>
+    <string name="pickerview_seconds">秒</string>
+    <string name="pickerview_submit">确定</string>
+    <string name="pickerview_year">年</string>
+    <string name="pollution_index">--:--</string>
+    <string name="pre_getphone">预取号</string>
+    <string name="saturday_week">星期六</string>
+    <string name="saturday_week_eng">Saturday</string>
+    <string name="saturday_week_eng_abbr">Sat.</string>
+    <string name="saturday_week_small">周六</string>
+    <string name="search_menu_title">Search</string>
+    <string name="select_mobilenumberBill">话费及流量查询</string>
+    <string name="select_sim_state">查询sim卡状态</string>
+    <string name="select_user_state">查询用户状态</string>
+    <string name="service_and_privacy"><u>中国联通认证服务协议</u></string>
+    <string name="service_name">中国联通提供认证服务</string>
+    <string name="settings_notification">通知栏设置</string>
+    <string name="settings_push">推送设置</string>
+    <string name="settings_weather_alarm">天气早晚提醒</string>
+    <string name="settings_widgets">桌面插件城市设置</string>
+    <string name="share_card_camera">更换封面</string>
+    <string name="share_card_tip">点击这里写点什么</string>
+    <string name="shortTip_cold">预计%s小时内会持续低温，记得保暖哦!</string>
+    <string name="shortTip_fog">预计%1$s小时后会有%2$s，能见度较低，注意安全哦!</string>
+    <string name="shortTip_haze">预计%1$s小时后会有%2$s，出门要佩戴口罩哦!</string>
+    <string name="shortTip_hot">预计%s小时内会持续高温，记得避暑降温哦!</string>
+    <string name="shortTip_rain">预计%1$s小时后会有%2$s，记得带雨伞哦!</string>
+    <string name="shortTip_rainStorm">预计%1$s小时后会有%2$s，记得带雨伞注意安全哦!</string>
+    <string name="shortTip_snow">预计%1$s小时后会有%2$s，记得防冻保暖哦!</string>
+    <string name="shortTip_snowStorm">预计%1$s小时后会有%2$s，注意安全哦!</string>
+    <string name="shortTip_stopBad">预计%1$s小时后糟糕的%2$s天气就会过去啦!</string>
+    <string name="shortTip_stopRain">预计%s小时后雨就会停啦!</string>
+    <string name="shortTip_stopSnow">预计%s小时后雪就会停啦!</string>
+    <string name="shortTip_tornado">预计%1$s小时后会有%2$s，注意安全哦!</string>
+    <string name="srl_component_falsify" formatted="false">"%s falsify area,
+ Represents the height[%.1fdp] of drag at run time,
+ It does not show anything."</string>
+    <string name="srl_content_empty">The content view in SmartRefreshLayout is empty. Do you forget to add it in xml layout file?</string>
+    <string name="ssdk_accountkit">Accountkit</string>
+    <string name="ssdk_alipay">支付宝好友</string>
+    <string name="ssdk_alipay_client_inavailable">目前您的支付宝版本过低或未安装，需要安装支付宝才能使用</string>
+    <string name="ssdk_alipaymoments">支付宝生活圈</string>
+    <string name="ssdk_bluetooth">蓝牙</string>
+    <string name="ssdk_cmcc">中国移动</string>
+    <string name="ssdk_cmcc_auth">手机认证服务由中国移动提供</string>
+    <string name="ssdk_cmcc_exchange_account">切换账号</string>
+    <string name="ssdk_cmcc_get_vercode">获取验证码</string>
+    <string name="ssdk_cmcc_loading_text">正在校验您的身份，请稍后...</string>
+    <string name="ssdk_cmcc_login_again">登录失败，请尝试短信验证码登录</string>
+    <string name="ssdk_cmcc_login_argree">登录即同意</string>
+    <string name="ssdk_cmcc_login_grant">并授权统一认证融合版获取本机号码</string>
+    <string name="ssdk_cmcc_login_one_key">本机号码一键登录</string>
+    <string name="ssdk_cmcc_owner_number">本机号码</string>
+    <string name="ssdk_cmcc_phone_number">手机号</string>
+    <string name="ssdk_cmcc_quick_login">快捷登录</string>
+    <string name="ssdk_cmcc_send_again">重新发送</string>
+    <string name="ssdk_cmcc_send_sms_bar">自动发送短信登陆，请允许通过</string>
+    <string name="ssdk_cmcc_terms_of_service">《中国移动号码服务条款》</string>
+    <string name="ssdk_cmcc_title_logon">登录</string>
+    <string name="ssdk_cmcc_ver_code">验证码</string>
+    <string name="ssdk_dingding">钉钉</string>
+    <string name="ssdk_dont_keep_activitys_client">由于您已开启 不保留活动 ,导致授权功能无法正常使用.我们建议您点击左下方 设置 按钮,在 开发者选项 中关闭 不保留活动 功能.</string>
+    <string name="ssdk_douban">豆瓣</string>
+    <string name="ssdk_douyin">抖音</string>
+    <string name="ssdk_dropbox">Dropbox</string>
+    <string name="ssdk_email">邮件</string>
+    <string name="ssdk_evernote">印象笔记</string>
+    <string name="ssdk_facebook">Facebook</string>
+    <string name="ssdk_facebookmessenger">Facebook Messenger</string>
+    <string name="ssdk_facebookmessenger_client_inavailable">目前您的FacebookMessenger版本过低或未安装，需要安装才能使用</string>
+    <string name="ssdk_flickr">Flickr</string>
+    <string name="ssdk_foursquare">FourSquare</string>
+    <string name="ssdk_gender_female">女</string>
+    <string name="ssdk_gender_male">男</string>
+    <string name="ssdk_google_plus_client_inavailable">Google+ 版本过低或者没有安装，需要升级或安装Google+才能使用！</string>
+    <string name="ssdk_googleplus">Google</string>
+    <string name="ssdk_instagram">Instagram</string>
+    <string name="ssdk_instagram_client_inavailable">Instagram版本过低或者没有安装，需要升级或安装Instagram才能使用！</string>
+    <string name="ssdk_instapager_email_or_password_incorrect">Email或密码不正确</string>
+    <string name="ssdk_instapager_login_html" formatted="false">"&lt;!DOCTYPE html>
+&lt;html>
+&lt;head>
+&lt;meta content=\"text/html; charset=utf-8\" http-equiv=\"Content-Type\">
+&lt;meta content=\"width=device-width,minimum-scale=1,maximum-scale=1,initial-scale=1,user-scalable=no\" id=\"viewport\" name=\"viewport\">
+&lt;meta content=\"yes\" name=\"apple-mobile-web-app-capable\">
+&lt;title>%s&lt;/title>
+&lt;style type=\"text/css\">
+body{margin:0;padding:0}
+.inputstyle {
+    -webkit-tap-highlight-color:rgba(255,255,255,0);
+    width:100%%;
+    height:44px;
+    color:#000;
+    background:0;
+    border:0;
+    font-size:16px;
+    outline: none;
+    -webkit-appearance:none
+}
+
+.btn {
+    width:90%%;
+    height:44px;
+    line-height:44px;
+    background:#A0C035;
+    border:0;
+    border-radius:4px;
+    color:#fff;
+    font-size:16px;
+    text-align:center;
+    margin-top:15px;
+    display:block
+}
+.btn:disabled {
+    background: #dddddd;
+}
+.error {
+    color:red;
+}
+&lt;/style>
+&lt;/head>
+
+&lt;body>
+&lt;script type=\"text/javascript\">
+function login(form){
+    var u=form[\"u\"].value,p=form[\"p\"].value;
+    if(!u || !p)
+        return false;
+    form[\"s\"].disabled = true;
+    return true;
+}
+&lt;/script>
+&lt;form style=\"margin-top:45px;\" action=\"%s\" metho=\"get\" onsubmit=\"return login(this);\">
+%s
+&lt;div style=\"padding-left:15px;border-top:1px solid #E3E3E5;border-bottom:1px solid #E3E3E5;\">
+ &lt;input type=\"hidden\" name=\"ID_SIGN\" value=\"OWELJSFPWECSFEW\"/>
+ &lt;input class=\"inputstyle\" id=\"u\" name=\"u\" type=\"text\" value=\"%s\" placeholder=\"%s\" style=\"border-bottom:1px solid #E3E3E5;\"/>
+ &lt;input class=\"inputstyle\" id=\"p\" name=\"p\" type=\"password\" placeholder=\"%s\"/>
+&lt;/div>
+&lt;p>&lt;input style=\"margin:0 auto;\" type=\"submit\" name=\"s\" value=\"  %s  \" class=\"btn\"/>&lt;/p>
+&lt;/form>
+&lt;/body>
+&lt;/html>"</string>
+    <string name="ssdk_instapaper">Instapaper</string>
+    <string name="ssdk_instapaper_email">邮箱</string>
+    <string name="ssdk_instapaper_login">登录</string>
+    <string name="ssdk_instapaper_logining">登录中…</string>
+    <string name="ssdk_instapaper_pwd">密码</string>
+    <string name="ssdk_kaixin">开心网</string>
+    <string name="ssdk_kakaostory">KakaoStory</string>
+    <string name="ssdk_kakaostory_client_inavailable">目前您的KakaoStory版本过低或未安装，需要安装KakaoStory才能使用</string>
+    <string name="ssdk_kakaotalk">KakaoTalk</string>
+    <string name="ssdk_kakaotalk_client_inavailable">目前您的KakaoTalk版本过低或未安装，需要安装KakaoTalk才能使用</string>
+    <string name="ssdk_laiwang">来往</string>
+    <string name="ssdk_laiwang_client_inavailable">目前您的来往版本过低或未安装，需要安装来往才能使用</string>
+    <string name="ssdk_laiwangmoments">来往动态</string>
+    <string name="ssdk_line">Line</string>
+    <string name="ssdk_line_client_inavailable">目前您的Line版本过低或未安装，需要安装Line才能使用</string>
+    <string name="ssdk_linkedin">领英</string>
+    <string name="ssdk_meipai">美拍</string>
+    <string name="ssdk_mingdao">明道</string>
+    <string name="ssdk_mingdao_share_content">网页分享</string>
+    <string name="ssdk_neteasemicroblog">网易微博</string>
+    <string name="ssdk_oks_cancel">取消</string>
+    <string name="ssdk_oks_confirm">确定</string>
+    <string name="ssdk_oks_contacts">联系人</string>
+    <string name="ssdk_oks_multi_share">图文分享</string>
+    <string name="ssdk_oks_pull_to_refresh">下拉刷新</string>
+    <string name="ssdk_oks_refreshing">刷新中…</string>
+    <string name="ssdk_oks_release_to_refresh">松开刷新</string>
+    <string name="ssdk_oks_share">分享</string>
+    <string name="ssdk_oks_share_canceled">分享已取消</string>
+    <string name="ssdk_oks_share_completed">分享成功</string>
+    <string name="ssdk_oks_share_failed">分享失败</string>
+    <string name="ssdk_oks_sharing">分享操作正在后台进行…</string>
+    <string name="ssdk_pinterest">Pinterest</string>
+    <string name="ssdk_pinterest_client_inavailable">Pinterest版本过低或者没有安装，需要升级或安装Pinterest才能使用！</string>
+    <string name="ssdk_plurk">Plurk</string>
+    <string name="ssdk_pocket">Pocket</string>
+    <string name="ssdk_qq">QQ</string>
+    <string name="ssdk_qq_client_inavailable">QQ 版本过低或者没有安装，需要升级或安装QQ才能使用！</string>
+    <string name="ssdk_qzone">QQ空间</string>
+    <string name="ssdk_reddit">reddit</string>
+    <string name="ssdk_renren">人人网</string>
+    <string name="ssdk_share_to_facebook">分享到Facebook</string>
+    <string name="ssdk_share_to_googleplus">分享到Google+</string>
+    <string name="ssdk_share_to_mingdao">分享到明道</string>
+    <string name="ssdk_share_to_qq">分享到QQ</string>
+    <string name="ssdk_share_to_qzone">分享到QQ空间</string>
+    <string name="ssdk_share_to_qzone_default">来自%s的分享</string>
+    <string name="ssdk_share_to_youtube">分享到Youtube</string>
+    <string name="ssdk_shortmessage">信息</string>
+    <string name="ssdk_sina_web_close">关闭</string>
+    <string name="ssdk_sina_web_login_title">登录-新浪微博</string>
+    <string name="ssdk_sina_web_net_error">网络出错啦，请点击按钮重新加载</string>
+    <string name="ssdk_sina_web_refresh">重新加载</string>
+    <string name="ssdk_sina_web_title">微博分享</string>
+    <string name="ssdk_sinaweibo">新浪微博</string>
+    <string name="ssdk_sms_btn_next">下一步</string>
+    <string name="ssdk_sms_btn_sende_voice">发送语音验证</string>
+    <string name="ssdk_sms_btn_submit">提交</string>
+    <string name="ssdk_sms_china">中国</string>
+    <string name="ssdk_sms_choose_country">选择国家和地区</string>
+    <string name="ssdk_sms_code">验证码</string>
+    <string name="ssdk_sms_country_search">搜索</string>
+    <string name="ssdk_sms_dialog_btn_back">返回</string>
+    <string name="ssdk_sms_dialog_btn_cancel">取消</string>
+    <string name="ssdk_sms_dialog_btn_login">确认登录</string>
+    <string name="ssdk_sms_dialog_btn_ok">好</string>
+    <string name="ssdk_sms_dialog_btn_sure">我知道了</string>
+    <string name="ssdk_sms_dialog_btn_wait">等待</string>
+    <string name="ssdk_sms_dialog_close_identify_page">"验证码短信可能略有延迟，确定返回
+并重新开始？"</string>
+    <string name="ssdk_sms_dialog_confirm_des">"我们将发送验证码短信到这个手机号：
+"</string>
+    <string name="ssdk_sms_dialog_confirm_title">确认手机号码</string>
+    <string name="ssdk_sms_dialog_error_code">验证码不正确，请重新填写</string>
+    <string name="ssdk_sms_dialog_error_des">您输入的是一个无效手机号码</string>
+    <string name="ssdk_sms_dialog_error_desc_100">服务器错误</string>
+    <string name="ssdk_sms_dialog_error_desc_101">没有权限请求</string>
+    <string name="ssdk_sms_dialog_error_desc_102">解密数据失败</string>
+    <string name="ssdk_sms_dialog_error_desc_103">请求参数列表中缺少必要数据</string>
+    <string name="ssdk_sms_dialog_error_desc_104">请求数据非法</string>
+    <string name="ssdk_sms_dialog_error_desc_105">验证码错误</string>
+    <string name="ssdk_sms_dialog_error_desc_106">请求发送验证码失败</string>
+    <string name="ssdk_sms_dialog_error_desc_107">"该号码超过接收验证码上
+限次数，请明日再试"</string>
+    <string name="ssdk_sms_dialog_error_desc_108">"该设备超过请求发送验证
+码上限次数，请明日再试"</string>
+    <string name="ssdk_sms_dialog_error_desc_109">发送短信太频繁</string>
+    <string name="ssdk_sms_dialog_error_title">手机号码错误</string>
+    <string name="ssdk_sms_dialog_login_success">登录成功</string>
+    <string name="ssdk_sms_dialog_net_error">网络不给力，请稍后重试</string>
+    <string name="ssdk_sms_dialog_send_success">发送成功</string>
+    <string name="ssdk_sms_dialog_smart_dec">"您的设备为安全设备，该号码已通过智能
+云验证，无需短信验证
+（本验证过程不存在任何安全隐患）"</string>
+    <string name="ssdk_sms_dialog_smart_title">恭喜！该号码已通过云检测</string>
+    <string name="ssdk_sms_dialog_system_error">系统有点小问题，请稍后重试</string>
+    <string name="ssdk_sms_dialog_voice_text">"我们将以电话的方式告知您验证码，
+请注意接听"</string>
+    <string name="ssdk_sms_input_code_hint">请输入验证码</string>
+    <string name="ssdk_sms_input_phone_hint">请输入手机号码</string>
+    <string name="ssdk_sms_input_voice_code"><Data>短信验证码收不到？请尝试&lt;font color=#2ba245>语音验证码&lt;/font></Data></string>
+    <string name="ssdk_sms_login">短信登录</string>
+    <string name="ssdk_sms_phone">手机号</string>
+    <string name="ssdk_sms_send_again">重新发送</string>
+    <string name="ssdk_sms_top_identify_text">短信已发送，请填写验证码</string>
+    <string name="ssdk_sms_top_text">请输入您的手机号</string>
+    <string name="ssdk_sms_zone">国家/地区</string>
+    <string name="ssdk_sohumicroblog">搜狐微博</string>
+    <string name="ssdk_sohusuishenkan">搜狐随身看</string>
+    <string name="ssdk_symbol_ellipsis">...</string>
+    <string name="ssdk_telecom">中国电信</string>
+    <string name="ssdk_telegram">Telegram</string>
+    <string name="ssdk_telegram_client_inavailable">目前您的Telegram版本过低或未安装，需要安装才能使用</string>
+    <string name="ssdk_tencentweibo">腾讯微博</string>
+    <string name="ssdk_tumblr">Tumblr</string>
+    <string name="ssdk_twitter">Twitter</string>
+    <string name="ssdk_use_login_button">请改用“登录”按钮</string>
+    <string name="ssdk_vkontakte">VK</string>
+    <string name="ssdk_website">http://www.mob.com</string>
+    <string name="ssdk_wechat">微信好友</string>
+    <string name="ssdk_wechat_client_inavailable">目前您的微信版本过低或未安装微信，需要安装微信才能使用</string>
+    <string name="ssdk_wechatfavorite">微信收藏</string>
+    <string name="ssdk_wechatmoments">微信朋友圈</string>
+    <string name="ssdk_weibo_oauth_regiseter">应用授权</string>
+    <string name="ssdk_weibo_upload_content">分享图片</string>
+    <string name="ssdk_wework">企业微信</string>
+    <string name="ssdk_whatsapp">WhatsApp</string>
+    <string name="ssdk_whatsapp_client_inavailable">目前您的WhatsApp版本过低或未安装，需要安装WhatsApp才能使用</string>
+    <string name="ssdk_yixin">易信</string>
+    <string name="ssdk_yixin_client_inavailable">目前您的易信版本过低或未安装，需要安装易信才能使用</string>
+    <string name="ssdk_yixinmoments">易信朋友圈</string>
+    <string name="ssdk_youdao">有道云笔记</string>
+    <string name="ssdk_youtube">Youtube</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="strNetworkTipsCancelBtn">取消</string>
+    <string name="strNetworkTipsConfirmBtn">继续下载</string>
+    <string name="strNetworkTipsMessage">你已切换到移动网络，是否继续当前下载？</string>
+    <string name="strNetworkTipsTitle">网络提示</string>
+    <string name="strNotificationClickToContinue">继续下载</string>
+    <string name="strNotificationClickToInstall">点击安装</string>
+    <string name="strNotificationClickToRetry">点击重试</string>
+    <string name="strNotificationClickToView">点击查看</string>
+    <string name="strNotificationDownloadError">下载失败</string>
+    <string name="strNotificationDownloadSucc">下载完成</string>
+    <string name="strNotificationDownloading">正在下载</string>
+    <string name="strNotificationHaveNewVersion">有新版本</string>
+    <string name="strToastCheckUpgradeError">检查新版本失败，请稍后重试</string>
+    <string name="strToastCheckingUpgrade">正在检查，请稍候...</string>
+    <string name="strToastYourAreTheLatestVersion">你已经是最新版了</string>
+    <string name="strUpgradeDialogCancelBtn">下次再说</string>
+    <string name="strUpgradeDialogContinueBtn">继续</string>
+    <string name="strUpgradeDialogFeatureLabel">更新说明</string>
+    <string name="strUpgradeDialogFileSizeLabel">包大小</string>
+    <string name="strUpgradeDialogInstallBtn">安装</string>
+    <string name="strUpgradeDialogRetryBtn">重试</string>
+    <string name="strUpgradeDialogUpdateTimeLabel">更新时间</string>
+    <string name="strUpgradeDialogUpgradeBtn">立即更新</string>
+    <string name="strUpgradeDialogVersionLabel">版本</string>
+    <string name="sunday_week">星期日</string>
+    <string name="sunday_week_eng">Sunday</string>
+    <string name="sunday_week_eng_abbr">Sun.</string>
+    <string name="sunday_week_small">周日</string>
+    <string name="switch_sms_login">短信登录开关</string>
+    <string name="sync_name">android_sync</string>
+    <string name="theme_square">主题广场</string>
+    <string name="thursday_week">星期四</string>
+    <string name="thursday_week_eng">Thursday</string>
+    <string name="thursday_week_eng_abbr">Thu.</string>
+    <string name="thursday_week_small">周四</string>
+    <string name="title_activity_acplayer">ACPlayer</string>
+    <string name="title_activity_screen">ScreenActivity</string>
+    <string name="today_suggest">今日建议</string>
+    <string name="today_suggest_more">查看更多</string>
+    <string name="tt_00_00">00:00</string>
+    <string name="tt_ad">Ad</string>
+    <string name="tt_ad_logo_txt">广告</string>
+    <string name="tt_app_name">tt_open_ad_sdk</string>
+    <string name="tt_auto_play_cancel_text">取消</string>
+    <string name="tt_cancel">取消</string>
+    <string name="tt_comment_num">%1$s个评分</string>
+    <string name="tt_comment_num_backup">(%1$s个评论)</string>
+    <string name="tt_comment_score">评价</string>
+    <string name="tt_confirm_download">正在使用非Wifi网络，确认要进行下载吗？</string>
+    <string name="tt_confirm_download_have_app_name">准备下载%s应用</string>
+    <string name="tt_dislike_header_tv_back">返回</string>
+    <string name="tt_dislike_header_tv_title">选择</string>
+    <string name="tt_full_screen_skip_tx">5s后可跳过</string>
+    <string name="tt_label_cancel">取消</string>
+    <string name="tt_label_ok">确定</string>
+    <string name="tt_no_network">无网络，请稍后再试</string>
+    <string name="tt_permission_denied">您已禁止授权操作，请授权</string>
+    <string name="tt_request_permission_descript_external_storage">存储</string>
+    <string name="tt_request_permission_descript_location">位置信息</string>
+    <string name="tt_request_permission_descript_read_phone_state">拨打电话</string>
+    <string name="tt_reward_screen_skip_tx">跳过</string>
+    <string name="tt_splash_skip_tv_text">3s | 跳过</string>
+    <string name="tt_tip">提示</string>
+    <string name="tt_unlike">不感兴趣</string>
+    <string name="tt_video_bytesize">流量</string>
+    <string name="tt_video_bytesize_M">M</string>
+    <string name="tt_video_bytesize_MB">MB</string>
+    <string name="tt_video_continue_play">继续播放</string>
+    <string name="tt_video_dial_phone">立即拨打</string>
+    <string name="tt_video_download_apk">立即下载</string>
+    <string name="tt_video_mobile_go_detail">查看详情</string>
+    <string name="tt_video_retry_des_txt">加载失败，点击重试</string>
+    <string name="tt_video_without_wifi_tips">播放将消耗</string>
+    <string name="tt_web_title_default">广告</string>
+    <string name="tt_will_play">即将播放</string>
+    <string name="tuesday_week">星期二</string>
+    <string name="tuesday_week_eng">Tuesday</string>
+    <string name="tuesday_week_eng_abbr">Tue.</string>
+    <string name="tuesday_week_small">周二</string>
+    <string name="umc_get_user_info">获取用户信息</string>
+    <string name="umc_lable">SDK-API</string>
+    <string name="umcsdk_grey">灰度</string>
+    <string name="umcsdk_product">现网</string>
+    <string name="umcsdk_test">测试线</string>
+    <string name="umeng_example_home_btn_plus">社交分享</string>
+    <string name="umeng_socialize_cancel_btn_str">取消</string>
+    <string name="umeng_socialize_content_hint">说点啥…</string>
+    <string name="umeng_socialize_female">女</string>
+    <string name="umeng_socialize_mail">邮件</string>
+    <string name="umeng_socialize_male">男</string>
+    <string name="umeng_socialize_send_btn_str">发送</string>
+    <string name="umeng_socialize_share">分享</string>
+    <string name="umeng_socialize_sina">新浪</string>
+    <string name="umeng_socialize_sms">短信</string>
+    <string name="umeng_socialize_text_add_custom_platform">请配置用户平台</string>
+    <string name="umeng_socialize_text_alipay_key">支付宝</string>
+    <string name="umeng_socialize_text_dingding_key">钉钉</string>
+    <string name="umeng_socialize_text_douban_key">豆瓣</string>
+    <string name="umeng_socialize_text_dropbox_key">DropBox</string>
+    <string name="umeng_socialize_text_evernote_key">印象笔记</string>
+    <string name="umeng_socialize_text_facebook_key">Facebook</string>
+    <string name="umeng_socialize_text_facebookmessager_key">Facebook Messager</string>
+    <string name="umeng_socialize_text_flickr_key">Flickr</string>
+    <string name="umeng_socialize_text_foursquare_key">Foursquare</string>
+    <string name="umeng_socialize_text_googleplus_key">GooglePlus</string>
+    <string name="umeng_socialize_text_instagram_key">Instagram</string>
+    <string name="umeng_socialize_text_kakao_key">KakaoTalk</string>
+    <string name="umeng_socialize_text_laiwangdynamic_key">点点虫动态</string>
+    <string name="umeng_socialize_text_line_key">LINE</string>
+    <string name="umeng_socialize_text_linkedin_key">Linkedin</string>
+    <string name="umeng_socialize_text_more_key">更多</string>
+    <string name="umeng_socialize_text_pinterest_key">Pinterest</string>
+    <string name="umeng_socialize_text_pocket_key">Pocket</string>
+    <string name="umeng_socialize_text_qq_key">QQ</string>
+    <string name="umeng_socialize_text_qq_zone_key">QQ空间</string>
+    <string name="umeng_socialize_text_renren_key">人人网</string>
+    <string name="umeng_socialize_text_sina_key">微博</string>
+    <string name="umeng_socialize_text_tencent_key">腾讯微博</string>
+    <string name="umeng_socialize_text_tumblr_key">Tumblr</string>
+    <string name="umeng_socialize_text_twitter_key">Twitter</string>
+    <string name="umeng_socialize_text_vkontakte_key">VKontakte</string>
+    <string name="umeng_socialize_text_waitting_share">分享中…</string>
+    <string name="umeng_socialize_text_weixin_circle_key">微信朋友圈</string>
+    <string name="umeng_socialize_text_weixin_fav_key">微信收藏</string>
+    <string name="umeng_socialize_text_weixin_key">微信</string>
+    <string name="umeng_socialize_text_wenxin_fav">微信收藏</string>
+    <string name="umeng_socialize_text_whatsapp_key">WhatsApp</string>
+    <string name="umeng_socialize_text_ydnote_key">有道云笔记</string>
+    <string name="umeng_socialize_text_yixin_key">易信</string>
+    <string name="umeng_socialize_text_yixincircle_key">易信朋友圈</string>
+    <string name="upsdk_app_dl_installing">Downloading AppGallery</string>
+    <string name="upsdk_app_download_info_new">Install</string>
+    <string name="upsdk_app_size">Size</string>
+    <string name="upsdk_app_version">Version</string>
+    <string name="upsdk_cancel">Cancel</string>
+    <string name="upsdk_checking_update_prompt">Checking for updates…</string>
+    <string name="upsdk_choice_update">Update available. Please download and install the latest version.</string>
+    <string name="upsdk_connect_server_fail_prompt_toast">Unable to connect to server. Please try again later.</string>
+    <string name="upsdk_detail">Details</string>
+    <string name="upsdk_getting_message_fail_prompt_toast">Unable to retrieve information. Please try again later.</string>
+    <string name="upsdk_install">Install AppGallery to update. Install now?</string>
+    <string name="upsdk_no_available_network_prompt_toast">No Internet connection. Please check your network settings.</string>
+    <string name="upsdk_ota_app_name">App</string>
+    <string name="upsdk_ota_cancel">Later</string>
+    <string name="upsdk_ota_force_cancel_new">Exit</string>
+    <string name="upsdk_ota_notify_updatebtn">Update</string>
+    <string name="upsdk_ota_title">New version</string>
+    <string name="upsdk_storage_utils">%1$s MB</string>
+    <string name="upsdk_third_app_dl_cancel_download_prompt_ex">Cancel the installation?</string>
+    <string name="upsdk_third_app_dl_install_failed">Installation failed.</string>
+    <string name="upsdk_third_app_dl_sure_cancel_download">Yes</string>
+    <string name="upsdk_update_check_no_new_version">You are already using the latest version.</string>
+    <string name="upsdk_updating">Updating</string>
+    <string name="user_authorization">获取户授权信息</string>
+    <string name="verify_mobileNumber">本机号码校验</string>
+    <string name="warn_tip_blue">蓝色</string>
+    <string name="warn_tip_orange">橙色</string>
+    <string name="warn_tip_red">红色</string>
+    <string name="warn_tip_yellow">黄色</string>
+    <string name="wednesday_week">星期三</string>
+    <string name="wednesday_week_eng">Wednesday</string>
+    <string name="wednesday_week_eng_abbr">Wed.</string>
+    <string name="wednesday_week_small">周三</string>
+    <string name="widgets_4x1">中央天气预报4X1</string>
+    <string name="widgets_4x2">中央天气预报4X2</string>
+    <string name="widgets_4x3">中央天气预报4X3</string>
+    <string name="widgets_4x4">中央天气预报4X4</string>
+    <string name="xupdate_connecting_service">Connecting the server…</string>
+    <string name="xupdate_download_complete">Download to complete, please click Install</string>
+    <string name="xupdate_lab_background_update">Background Upgrade</string>
+    <string name="xupdate_lab_downloading">Downloading：</string>
+    <string name="xupdate_lab_ignore">Ignore</string>
+    <string name="xupdate_lab_install">Install</string>
+    <string name="xupdate_lab_new_version_size">New version size:</string>
+    <string name="xupdate_lab_ready_update">Whether to upgrade to version %s？</string>
+    <string name="xupdate_lab_update">Upgrade</string>
+    <string name="xupdate_start_download">Start download</string>
+    <string name="xupdate_tip_download_url_error">New version download path error</string>
+    <string name="xupdate_tip_permissions_reject">Please authorize access to storage space permissions, otherwise App can not be updated!</string>
+</resources>

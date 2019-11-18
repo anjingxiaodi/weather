@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/tv_notice_main_list_isread"
+            android:layout_width="@dimen/x60"
+            android:layout_height="@dimen/x60"
+            android:background="@mipmap/ic_launcher"
+            />
+        <TextView
+            android:id="@+id/tv_notice_main_list_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x30"
+            android:layout_marginRight="@dimen/x30"
+            android:layout_marginTop="@dimen/y40"
+            android:text="标题最多显示两行，最多显示两行，最多显示两行文字，最多显示两行文字"
+            android:textColor="#FF333333"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y32"
+        android:layout_marginTop="@dimen/y26"
+        android:layout_gravity="center_vertical"
+        >
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            >
+        <TextView
+            android:id="@+id/tv_notice_main_list_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x30"
+            android:text="置顶"
+            android:textColor="#FFE64340"
+            android:textSize="12sp"
+            android:paddingLeft="@dimen/x10"
+            android:paddingRight="@dimen/x10"
+            android:includeFontPadding="false"
+            />
+
+        <TextView
+            android:id="@+id/tv_notice_main_list_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x30"
+            android:text="2017-11-24  18: 40"
+            android:textColor="#FF999999"
+            android:includeFontPadding="false"
+            android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/y32"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/x30"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+                />
+
+            <TextView
+                android:id="@+id/tv_notice_main_list_readnumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="994"
+                android:textColor="#FF999999"
+                android:textSize="12sp"
+                android:layout_marginLeft="@dimen/x10"
+                android:includeFontPadding="false"
+                />
+
+            <ImageView
+                android:id="@+id/tv_notice_main_list_fujian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+                android:layout_marginLeft="@dimen/x30"
+                />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_notice_main_list_owner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发布部门-发布人"
+        android:textColor="#FF999999"
+        android:textSize="12sp"
+        android:layout_marginTop="@dimen/x30"
+        android:layout_marginLeft="@dimen/x30"
+        />
+
+    <ImageView
+        android:id="@+id/iv_notice_main_list_pic"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y370"
+        android:layout_marginTop="@dimen/y30"
+        android:layout_marginRight="@dimen/x30"
+        android:layout_marginLeft="@dimen/x30"
+        android:background="@mipmap/ic_launcher" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5px"
+        android:background="#FFE5E5EA"
+        android:layout_marginLeft="@dimen/x30"
+        android:layout_marginTop="@dimen/y40"
+        />
+</LinearLayout>
